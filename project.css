@@ -1,0 +1,55 @@
+
+.topic{
+    font-family:'Times New Roman', Times, serif;
+}
+.to{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.h{
+    text-align: end;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .rule{
+    font-family:'Times New Roman', Times, serif;
+font-style: italic;
+color: darkviolet;
+}
+.p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:darkmagenta;
+}
+.end{
+    background-color:darkorchid;
+    color: white;
+}
+pre{
+    color:beige
+}
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
